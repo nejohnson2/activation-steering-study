@@ -47,7 +47,7 @@ pip install -r requirements.txt
 
 ### NVWulf Cluster
 ```bash
-module load cuda12.8/toolkit/12.8.0
+module load cuda12.8/toolkit/12.8.1
 conda create -n steering-study python=3.11
 conda activate steering-study
 pip install -r requirements.txt

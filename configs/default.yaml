@@ -64,7 +64,7 @@ steering:
 
 evaluation:
   llm_judge:
-    model: llama3.1:8b        # Ollama model name
+    model: qwen3:32b          # Ollama model name
     base_url: http://localhost:11434
     rubric_scale: 5           # 1-5 Likert scale
     num_judge_samples: 50

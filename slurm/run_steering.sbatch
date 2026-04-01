@@ -9,7 +9,7 @@
 #SBATCH --error=/lustre/nvwulf/scratch/nijjohnson/logs/steering_%j.err
 
 # --- Environment Setup ---
-module load cuda12.8/toolkit/12.8.0
+module load cuda12.8/toolkit/12.8.1
 conda activate steering-study
 
 export HF_HOME=/lustre/nvwulf/scratch/nijjohnson/hf_cache
